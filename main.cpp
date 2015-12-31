@@ -29,12 +29,15 @@ int main() {
     
     int *p = example1;
     cout << "pointer p is..."<< *p << endl;
+    //should print out 9 because we are printing content of pointing target
     
     double *pointer2 = example;
     
     cout << "pointer pointer2 is..."<< pointer2 << endl;
+    //address of first element of example array
     
     double *pointer = &example[0];
+    //address of first element explicitly decalred
     
     cout << "pointer is..."<< pointer << endl;
     
